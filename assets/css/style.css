@@ -18,7 +18,7 @@
 }
 
 .main {
-  height: 90vh;
+  height: 92vh;
   width: 80%;
   margin: 0 auto;
   border-radius: 20px;
@@ -282,7 +282,7 @@
 }
 
 .header {
-  margin: 6rem 4rem;
+  margin: 6rem 8rem 4rem 0rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -432,4 +432,56 @@ align-items: center; */
   position: absolute;
   top: -4px;
   left: -48px;
+}
+
+.footer .footer-list .footer-list-item {
+   display: flex;
+  justify-content: space-between;
+  gap: 10px;  
+  margin-bottom: 20px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.footer .footer-list .footer-list-item .footer-list-item-icon {
+
+/* .footer .footer-list .footer-list-item::before { */
+  /* content: '\25'; */
+  font-family: "Font Awesome 6 Free"; 
+  position: absolute;
+  top: 0;
+  left: -61px;
+  width: 47px;
+  height: 47px;
+  border-radius: 15px;
+  background-color: #fecfd0;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ::before */
+.footer .footer-list .footer-list-item:last-child .footer-list-item-icon{
+  /* content: '\f02a'; */
+  background-color: #fedfb1;
+}
+
+.footer .footer-list .footer-list-item .footer-list-item-icon i {
+  transform: rotate(-45deg);
+}
+/* .footer .footer-list .footer-list-item .footer-list-item-details {
+  flex-grow: 3;
+} */
+
+.footer .footer-list .footer-list-item .footer-list-item-details h1 {
+  color: #222e56;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer .footer-list .footer-list-item .footer-list-item-details p {
+  color: #222e56;
+  font-size: 11px;
+  font-weight: 400;
 }
