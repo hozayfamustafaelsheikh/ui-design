@@ -7,10 +7,11 @@
   text-decoration: none;
   color: #000;
   font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
 .page {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -18,7 +19,7 @@
 
 .main {
   height: 650px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   border-radius: 20px;
   background-color: #eee;
@@ -88,8 +89,8 @@
 } */
 
 .container {
-  width: 80%;
-  margin: 1rem auto;
+  width: 90%;
+  margin: 2rem auto;
   z-index: 10;
   position: relative;
 }
@@ -104,7 +105,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  /* margin: 1rem; */
+}
+
+.logo h1 {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .logo .logo-circel {
@@ -125,6 +131,7 @@
   height: 20px;
   width: 40px;
   transform: rotate(-47deg);
+  border-top-left-radius: 15px;
 }
 
 .logo .logo-circel .curve:before {
@@ -133,11 +140,11 @@
   position: absolute;
   border-radius: 50%;
   height: 13px;
-  width: 55%;
+  width: 60%;
   background-color: #8359e3;
-  left: 6px;
-  bottom: -8px;
-  transform: rotate(0deg);
+  left: 4px;
+  bottom: -9px;
+  transform: rotate(-16deg);
 }
 
 .logo .logo-circel .curve:after {
@@ -145,13 +152,13 @@
   display: block;
   position: absolute;
   border-radius: 50%;
-  height: 8px;
-  width: 8px;
+  height: 10px;
+  width: 10px;
   background-color: #fe7f77;
   left: 0px;
   bottom: 0px;
   transform: rotate(25deg);
-  box-shadow: 0px 2px 0 0 #8359e3;
+  box-shadow: 0px 5px 0 0 #8359e3;
 }
 
 .logo .logo-circel .curve-2 {
@@ -162,6 +169,7 @@
   height: 20px;
   width: 40px;
   transform: rotate(-47deg);
+  border-bottom-right-radius: 15px;
 }
 
 .logo .logo-circel .curve-2:before {
@@ -170,11 +178,11 @@
   position: absolute;
   border-radius: 50%;
   height: 13px;
-  width: 55%;
+  width: 60%;
   background-color: #8359e3;
-  right: 6px;
-  top: -8px;
-  transform: rotate(0deg);
+  right: 4px;
+  top: -9px;
+  transform: rotate(-16deg);
 }
 
 .logo .logo-circel .curve-2:after {
@@ -182,13 +190,13 @@
   display: block;
   position: absolute;
   border-radius: 50%;
-  height: 8px;
-  width: 8px;
+  height: 10px;
+  width: 10px;
   background-color: #fe7f77;
   right: 0px;
   top: 0px;
   transform: rotate(25deg);
-  box-shadow: 0px -2px 0 0 #8359e3;
+  box-shadow: 0px -5px 0 0 #8359e3;
 }
 
 /* .logo .logo-circel .curve-2 {
@@ -204,35 +212,6 @@
   transform: rotate(107deg);
   width: 40px;
 } */
-
-#wave {
-  position: relative;
-  height: 70px;
-  width: 600px;
-  background: #e0efe3;
-}
-#wave:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 340px;
-  height: 80px;
-  background-color: white;
-  right: -5px;
-  top: 40px;
-}
-#wave:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 300px;
-  height: 70px;
-  background-color: #e0efe3;
-  left: 0;
-  top: 27px;
-}
 
 /* .pepsi {
   border-radius: 50%;
@@ -274,4 +253,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 42px;
+}
+
+.menu .menu-item a {
+  font-size: 15px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.login .login-btn {
+  font-size: 15px;
+}
+
+.login .try-btn {
+    background-color: #8359E345;
+    width: 107px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
 }
