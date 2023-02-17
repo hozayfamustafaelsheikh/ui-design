@@ -15,3 +15,7 @@ Devices
 
     - Desktop
     - Tablet (Recommended)
+
+Screenshots
+![alt text](https://github.com/hozayfamustafaelsheikh/ui-design/blob/main/assets/img/uidesigne.PNG?raw=true)
+
