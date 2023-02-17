@@ -306,18 +306,17 @@
   font-weight: 600;
 }
 
-.header .header-titles a
-  {
-    margin-top: 20px;
-    background-color: #8359E3;
-    color: #fff;
-    width: 166px;
-    height: 68px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-  }
+.header .header-titles a {
+  margin-top: 20px;
+  background-color: #8359e3;
+  color: #fff;
+  width: 166px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
 
 .header .header-image-circel {
   position: relative;
@@ -346,4 +345,91 @@ align-items: center; */
 
 .header .header-image-circel .header-image img {
   width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 124px;
+  width: 100%;
+}
+
+.footer .footer-titles h1 {
+  color: #222e56;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer .footer-titles p {
+  color: #222e56;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer .footer-icons {
+  position: relative;
+  width: 80%;
+  height: 256px;
+}
+
+.footer .footer-icons .footer-icon {
+  background-color: #d9d9d942;
+  border-radius: 30px;
+  width: 100px;
+  height: 120px;
+  /* backdrop-filter: blur(2rem); */
+  padding: 2px;
+  position: absolute;
+}
+.footer .footer-icons .footer-icon.icon-1 {
+  top: 0;
+  left: 0;
+}
+
+.footer .footer-icons .footer-icon.icon-2 {
+  top: 0;
+  right: 0;
+}
+
+.footer .footer-icons .footer-icon.icon-3 {
+  bottom: 0;
+  left: 50px;
+}
+
+.footer .footer-icons .footer-icon.icon-4 {
+  bottom: 0;
+  right: -48px;
+}
+
+.footer .footer-icons .footer-icon .footer-icon-inside {
+  background-color: #3d3fd62b;
+  border-radius: 30px;
+  width: 100px;
+  height: 120px;
+  position: relative;
+  box-shadow: 11px 6px 31px 3px #3d3fd650;
+}
+
+.footer .footer-icons .footer-icon .footer-icon-inside img {
+  width: 122%;
+  position: absolute;
+  top: -28px;
+  left: -17px;
+}
+
+.footer .footer-icons .footer-icon.icon-2 .footer-icon-inside img {
+  width: 80%;
+  position: absolute;
+  top: -18px;
+  right: 1px;
+  left: unset;
+}
+
+.footer .footer-icons .footer-icon.icon-3 .footer-icon-inside img {
+  width: 122%;
+  position: absolute;
+  top: -4px;
+  left: -48px;
 }
