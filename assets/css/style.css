@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  height: 650px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #eee;
+  background: linear-gradient(180deg, #C5A4B4, #8F9CC1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.circel {
+  position: absolute;
+  top: 0;/*calc(50% - 150px);*/
+  left: 0;/*calc(50% - 150px);*/
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #be81ba, #c782b7);
+  /* background-color: #C17EB8; */
+  /* box-shadow: 0px 0px 20px 20px #dd8fc4; */
+  /* background-color: #fff; */
+  /* border: 5px solid #dd8fc4; */
+  box-shadow:
+    /* 0 0 60px 30px #dd8fc4, */
+    /* 0 0 100px 60px #dd8fc4, */
+    /* 0 0 40px 90px #FF00B84D, */
+    /* 0 0 140px 90px #FF00B84D, */
+    0 0 240px 90px #FF00B84D;
+  /* box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff; */
+}
+
+.circel-2 {
+    position: absolute;
+    bottom: 0;/*calc(50% - 150px);*/
+    right: 0;/*calc(50% - 150px);*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+  background: linear-gradient(0deg, #7b8acb, #868ac9);
+    /* background-color: #8882C8; */
+    /* box-shadow: 0px 0px 20px 20px #dd8fc4; */
+    /* background-color: #fff; */
+    /* border: 5px solid #dd8fc4; */
+    box-shadow:
+      /* 0 0 60px 30px #dd8fc4, */
+      /* 0 0 100px 60px #dd8fc4, */
+      0 0 240px 90px #0038FF4D;
+    /* box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+      inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+      0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff; */
+  }
+
+/* .main::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px 20px #dd8fc4;
+} */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  z-index: 10;
+}
